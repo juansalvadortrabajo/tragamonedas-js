@@ -1,0 +1,74 @@
+*{
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: yellowgreen;
+  background-color: #000;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  font-size: 3em;
+}
+
+#encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  font-size: 3em;
+}
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  font-size: 2em;
+}
+
+#jugar button {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  background-color: yellowgreen;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+#ventanas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  padding: 20px;
+  font-size: 8em;
+  border: 2px solid yellowgreen;
+  width: 800px;
+  border-radius: 10px;
+}
+
+#mensaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: 2em;
+}
